@@ -34,7 +34,7 @@ public class PeopleRestService {
 	@Produces( { MediaType.APPLICATION_JSON } )
 	@Path( "/{email}" )
 	@GET
-	public Person getPeople( @PathParam( "email" ) final String email ) {
+	public Person getPerson( @PathParam( "email" ) final String email ) {
 		return peopleService.getByEmail( email );
 	}
 

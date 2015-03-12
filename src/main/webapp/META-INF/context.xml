@@ -1,4 +1,4 @@
-<Context antiResourceLocking="false">
+<Context path="jax-rs-2.0-cdi" antiResourceLocking="false">
    <Resource 
    		name="BeanManager" 
    		auth="Container" 

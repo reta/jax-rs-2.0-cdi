@@ -5,10 +5,6 @@
 		<listener-class>org.jboss.weld.environment.servlet.Listener</listener-class>
 	</listener>
 	
-	<listener>
-   		<listener-class>org.jboss.weld.environment.servlet.BeanManagerResourceBindingListener</listener-class>
-	</listener>
-
 	<servlet>
 		<servlet-name>CXFServlet</servlet-name>
 		<display-name>CXF Servlet</display-name>

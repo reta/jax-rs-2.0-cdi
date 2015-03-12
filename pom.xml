@@ -12,7 +12,6 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<org.apache.cxf.version>3.0.0</org.apache.cxf.version>
-		<org.eclipse.jetty.version>9.1.1.v20140108</org.eclipse.jetty.version>
 	</properties>
 
 	<dependencies>		
@@ -57,12 +56,6 @@
 		    <artifactId>weld-core</artifactId>
 		    <version>2.1.2.Final</version>
 		</dependency>
-		
-		<dependency>
-		    <groupId>org.eclipse.jetty</groupId>
-			<artifactId>jetty-servlet</artifactId>
-			<version>${org.eclipse.jetty.version}</version>		   		   
-		</dependency>		
 	</dependencies>
 
 	<build>
@@ -75,18 +68,7 @@
                     <source>1.7</source>
                     <target>1.7</target>
                 </configuration>
-            </plugin>	
-            
-            <plugin>
-			    <groupId>org.eclipse.jetty</groupId>
-			    <artifactId>jetty-maven-plugin</artifactId>
-			    <version>${org.eclipse.jetty.version}</version>
-		        <configuration>
-		        	<webApp>
-		          		<contextPath>/</contextPath>
-		        	</webApp>
-		        </configuration>
-			</plugin>				
+            </plugin>				
 		</plugins>
 	</build>
 	

@@ -70,6 +70,7 @@
                 </configuration>
             </plugin>				
 		</plugins>
+		<finalName>jax-rs-2.0-cdi</finalName>
 	</build>
 	
 	<repositories>
